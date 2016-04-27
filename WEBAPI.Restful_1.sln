@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBAPI.Restful_1.DataModel"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBAPI.Restful_1.Business", "WEBAPI.Restful_1.Business\WEBAPI.Restful_1.Business.csproj", "{198BF64F-0015-44AA-9C10-D05C84A1F34D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEBAPI.Restful-1", "WEBAPI.Restful-1", "{ADDCFCF3-C6A8-4343-974D-C5B752E595C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1761132-C7C9-44B2-87EA-DDBE55AE00F2} = {ADDCFCF3-C6A8-4343-974D-C5B752E595C1}
+		{7ACE4779-7E69-4F9B-AE46-E7250EBC30B9} = {ADDCFCF3-C6A8-4343-974D-C5B752E595C1}
+		{198BF64F-0015-44AA-9C10-D05C84A1F34D} = {ADDCFCF3-C6A8-4343-974D-C5B752E595C1}
 	EndGlobalSection
 EndGlobal
