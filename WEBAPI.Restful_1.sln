@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBAPI.Restful_1.Business",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEBAPI.Restful-1", "WEBAPI.Restful-1", "{ADDCFCF3-C6A8-4343-974D-C5B752E595C1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEBAPI.Restful-2", "WEBAPI.Restful-2", "{E433466D-EE06-4A58-B595-04D4F37778F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
