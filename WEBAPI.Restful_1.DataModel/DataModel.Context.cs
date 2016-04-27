@@ -16,7 +16,7 @@ namespace WEBAPI.Restful_1.DataModel
     public partial class DB_WEBAPIEntities : DbContext
     {
         public DB_WEBAPIEntities()
-            : base("name=DB_WEBAPIEntities1")
+            : base("name=DB_WEBAPIEntities")
         {
         }
     

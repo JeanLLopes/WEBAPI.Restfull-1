@@ -14,11 +14,11 @@ namespace WEBAPI.Restful_1.DataModel
     
     public partial class TOKENS
     {
-        public int TOKEN_ID { get; set; }
-        public int USER_ID { get; set; }
-        public string AUTH_TOKEN { get; set; }
-        public System.DateTime ISSUE_ON { get; set; }
-        public System.DateTime EXPIRES_ON { get; set; }
+        public int TokenId { get; set; }
+        public int UserId { get; set; }
+        public string AuthToken { get; set; }
+        public System.DateTime IssuedOn { get; set; }
+        public System.DateTime ExpiresOn { get; set; }
     
         public virtual USER USER { get; set; }
     }

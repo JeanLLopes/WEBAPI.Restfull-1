@@ -1,9 +1,5 @@
-﻿using System;
-using System.Activities.Statements;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using AutoMapper;
 using WEBAPI.Restful_1.DataModel;
 
@@ -48,11 +44,11 @@ namespace WEBAPI.Restful_1.Business
         {
             var product = new PRODUCTS
             {
-                PRODUCT_NAME = productEntity.ProductName
+                ProductName = productEntity.ProductName
             };
             _unitOfWork.ProductRepository.Insert(product);
             _unitOfWork.Save();
-            return product.PRODUCT_ID;
+            return product.ProductId;
         }
 
         public bool UpdateProduct(int productId, ProductEntity productEntity)
@@ -63,7 +59,7 @@ namespace WEBAPI.Restful_1.Business
                 var product = _unitOfWork.ProductRepository.GetById(productId);
                 if (product != null)
                 {
-                    product.PRODUCT_NAME = productEntity.ProductName;
+                    product.ProductName = productEntity.ProductName;
                     _unitOfWork.ProductRepository.Update(product);
                     _unitOfWork.Save();
                     success = true;

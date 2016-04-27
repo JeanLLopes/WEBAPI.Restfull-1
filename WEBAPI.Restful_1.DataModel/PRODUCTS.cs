@@ -14,7 +14,7 @@ namespace WEBAPI.Restful_1.DataModel
     
     public partial class PRODUCTS
     {
-        public int PRODUCT_ID { get; set; }
-        public string PRODUCT_NAME { get; set; }
+        public int ProductId { get; set; }
+        public string ProductName { get; set; }
     }
 }

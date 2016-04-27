@@ -20,8 +20,8 @@ namespace WEBAPI.Restful_1.DataModel
             this.TOKENS = new HashSet<TOKENS>();
         }
     
-        public int USER_ID { get; set; }
-        public string USER_NAME { get; set; }
+        public int UserId { get; set; }
+        public string UserName { get; set; }
         public string PASSWORD { get; set; }
         public string NAME { get; set; }
     
