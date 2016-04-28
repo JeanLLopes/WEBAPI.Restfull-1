@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WEBAPI.Restful_1.Entities
+namespace WEBAPI.Restful.Entities
 {
     public class UserEntity
     {

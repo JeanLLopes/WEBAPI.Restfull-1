@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WEBAPI.Restful_1.DataModel
+namespace WEBAPI.Restful.DataModel
 {
     public class UnitOfWork : IDisposable
     { 

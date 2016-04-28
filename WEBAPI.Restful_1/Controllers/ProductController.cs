@@ -3,10 +3,10 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using WEBAPI.Restful_1.Entities;
-using WEBAPI.Restful_1.Services;
+using WEBAPI.Restful.Entities;
+using WEBAPI.Restful.Services;
 
-namespace WEBAPI.Restful_1.Controllers
+namespace WEBAPI.Restful.Controllers
 {
     public class ProductController : ApiController
     {

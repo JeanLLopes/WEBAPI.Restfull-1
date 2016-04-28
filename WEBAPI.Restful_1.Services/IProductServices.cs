@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WEBAPI.Restful_1.Entities;
+using WEBAPI.Restful.Entities;
 
-namespace WEBAPI.Restful_1.Services
+namespace WEBAPI.Restful.Services
 {
     public interface IProductServcices
     {

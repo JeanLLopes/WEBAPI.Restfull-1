@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace WEBAPI.Restful_1.DataModel
+namespace WEBAPI.Restful.DataModel
 {
     //CRIAMOS UM REPOSITORIO GENERICO
     public class GenericRepository<TEntity> where TEntity : class 

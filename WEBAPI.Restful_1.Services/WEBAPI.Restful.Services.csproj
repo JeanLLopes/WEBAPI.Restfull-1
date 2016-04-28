@@ -7,8 +7,8 @@
     <ProjectGuid>{75F917BF-1366-420B-9C42-0C750844EAE3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WEBAPI.Restful_1.Services</RootNamespace>
-    <AssemblyName>WEBAPI.Restful_1.Services</AssemblyName>
+    <RootNamespace>WEBAPI.Restful.Services</RootNamespace>
+    <AssemblyName>WEBAPI.Restful.Services</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

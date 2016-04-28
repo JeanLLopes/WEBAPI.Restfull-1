@@ -7,8 +7,8 @@
     <ProjectGuid>{7ACE4779-7E69-4F9B-AE46-E7250EBC30B9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WEBAPI.Restful_1.DataModel</RootNamespace>
-    <AssemblyName>WEBAPI.Restful_1.DataModel</AssemblyName>
+    <RootNamespace>WEBAPI.Restful.DataModel</RootNamespace>
+    <AssemblyName>WEBAPI.Restful.DataModel</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

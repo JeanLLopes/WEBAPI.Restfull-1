@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WEBAPI.Restful_1.DataModel
+namespace WEBAPI.Restful.DataModel
 {
     using System;
     using System.Data.Entity;
