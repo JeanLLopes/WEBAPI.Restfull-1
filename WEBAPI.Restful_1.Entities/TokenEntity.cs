@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-namespace WEBAPI.Restful_1.Business
+namespace WEBAPI.Restful_1.Entities
 {
     public class TokenEntity
     {
@@ -10,5 +13,6 @@ namespace WEBAPI.Restful_1.Business
         public string AuthToken { get; set; }
         public DateTime IssuedOn { get; set; }
         public DateTime ExpiresOn { get; set; }
+
     }
 }

@@ -1,17 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using WEBAPI.Restful_1.Business;
+using WEBAPI.Restful_1.Entities;
+using WEBAPI.Restful_1.Services;
 
 namespace WEBAPI.Restful_1.Controllers
 {
     public class ProductController : ApiController
     {
 
-        private readonly IProductServices _productServices;
+        private readonly IProductServcices _productServices;
 
         #region Public Constructor
 

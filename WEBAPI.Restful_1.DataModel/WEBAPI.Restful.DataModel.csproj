@@ -65,7 +65,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="GenericRepository.cs" />
+    <Compile Include="GenericRepository\GenericRepository.cs" />
     <Compile Include="PRODUCTS.cs">
       <DependentUpon>DataModel.tt</DependentUpon>
     </Compile>
@@ -73,7 +73,7 @@
     <Compile Include="TOKENS.cs">
       <DependentUpon>DataModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="UnitOfWork.cs" />
+    <Compile Include="UnitOfWork\UnitOfWork.cs" />
     <Compile Include="USER.cs">
       <DependentUpon>DataModel.tt</DependentUpon>
     </Compile>

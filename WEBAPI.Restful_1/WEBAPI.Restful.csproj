@@ -346,13 +346,13 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WEBAPI.Restful_1.Business\WEBAPI.Restful_1.Business.csproj">
-      <Project>{198bf64f-0015-44aa-9c10-d05c84a1f34d}</Project>
-      <Name>WEBAPI.Restful_1.Business</Name>
+    <ProjectReference Include="..\WEBAPI.Restful_1.Entities\WEBAPI.Restful.Entities.csproj">
+      <Project>{9eed9b31-24e3-477a-aaad-1342407c35e0}</Project>
+      <Name>WEBAPI.Restful.Entities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WEBAPI.Restful_1.DataModel\WEBAPI.Restful_1.DataModel.csproj">
-      <Project>{7ace4779-7e69-4f9b-ae46-e7250ebc30b9}</Project>
-      <Name>WEBAPI.Restful_1.DataModel</Name>
+    <ProjectReference Include="..\WEBAPI.Restful_1.Services\WEBAPI.Restful.Services.csproj">
+      <Project>{75f917bf-1366-420b-9c42-0c750844eae3}</Project>
+      <Name>WEBAPI.Restful.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
